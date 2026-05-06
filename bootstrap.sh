@@ -21,4 +21,9 @@ if [ -f scripts/download_data.sh ]; then
   bash scripts/download_data.sh
 fi
 
+echo "==> 5) Verify Python setup"
+if [ -f scripts/verify_setup.py ]; then
+  python scripts/verify_setup.py
+fi
+
 echo "Done."
