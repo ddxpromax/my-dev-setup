@@ -1,0 +1,6 @@
+# 仅补齐 AutoDL / 预制镜像里没有的包（不包含 torch——用镜像自带的）
+joblib>=1.3
+scipy>=1.11
+rliable>=1.2
+jsonargparse>=4.27
+docstring_parser>=0.15
